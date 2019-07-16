@@ -1,0 +1,143 @@
+@font-face {
+    font-family: ballpark;
+    src: url('../materiales/polices/ballpark.eot');
+    src: url('../materiales/polices/ballpark.svg') format('svg');
+    src: url('../materiales/polices/ballpark.woff') format('woff'),
+        url('../materiales/polices/ballpark.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: dayrom;
+    src: url('../materiales/polices/dayrom.eot'),
+        url('../materiales/polices/dayrom.svg') format('svg'),
+        url('../materiales/polices/dayrom.woff') format('woff'),
+        url('../materiales/polices/dayrom.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #181818;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-image: url(../materiales/images/fond_jaune.png);
+}
+
+#main_wrapper {
+    width: 900px;
+    margin: auto;
+}
+
+section h1, footer h3, nav a{
+    font-family: dayrom;
+    font-weight: normal;
+    font-size: normal;
+    text-transform: uppercase;
+}
+
+header {
+    background: url(../materiales/images/separateur.png) repeat-x bottom;  /*   Repetir imagen en un solo lado  */
+}
+
+#logo {
+    display: inline-block;
+    margin: 0;
+    margin-top: 20px;
+}
+
+#logo figure {
+    display: inline-block;
+    margin: 0;
+}
+
+header h1 {
+    font-family: 'ballpark', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+#logo_zozor, header h1 {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+header h2 {
+    font-family: dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+/*  Enlaces de navegación   */
+
+nav {
+    display: inline-block;  /*Permite establecer un ancho los margenes se respetan   */
+    width: 740px;       /*  Indico el espacio que va a ocupar   */
+    text-align: right;  /*   Alinio todo ese campo a la izquierda   */
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+/**     FIN SECCIÓN DE NAVEGACIÓN   **/
+
+
+/** INICIO SECCIÓN DEL BANNER **/
+
+#banner-image {
+    height: 200px;
+    background-image: url('../materiales/images/sanfrancisco.jpg');
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #1c1a19;  /**   Sirve para realizar una sombra negra    **/
+    position: relative;
+}
+
+#banner-description {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(24, 24, 24, .8);
+    width: 99.5%;
+    height: 33px;
+    padding-left: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+.red_buttom {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #760001;
+    color: #fff;
+    text-align: center;
+}
+
