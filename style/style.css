@@ -108,12 +108,14 @@ nav a:hover {
 /** INICIO SECCIÓN DEL BANNER **/
 
 #banner-image {
+    margin-top: 20px;
     height: 200px;
     background-image: url('../materiales/images/sanfrancisco.jpg');
     width: 100%;
     border-radius: 5px;
     box-shadow: 0px 4px 4px #1c1a19;  /**   Sirve para realizar una sombra negra    **/
     position: relative;
+    margin-top: 40px;
 }
 
 #banner-description {
@@ -141,3 +143,104 @@ nav a:hover {
     text-align: center;
 }
 
+/**     Cuerpo de la pagina o SECTION      **/
+
+section {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+article, aside {
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+article {
+    max-width: 70%;
+    margin-right: 20px;
+}
+
+.icon-categories {
+    margin-right: 10px;
+}
+
+article p {
+    font-size: .8em;
+}
+
+aside {
+    max-width: 25%;
+    background-color: #706b64;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: .9em;
+    color: #fff;
+    box-shadow: 0px 2px 5px #1c1a19;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#arrow {
+    position: absolute;
+    left: -12px;
+    top: 120px;
+}
+
+#tweet img {
+    height: 40px;
+    width: 40px;
+}
+
+/**     Inicio del footer   **/
+
+footer {
+    background: url('../materiales/images/separateur.png') repeat-x,
+    url('../materiales/images/ico_top.png') no-repeat top center;
+    /** Aqui es un ejemplo de insertar varias imagenes como background
+    indicar cuantas veces quiero que se repita y cuantas donde lo quiero posicionar
+    como lo es el ejemplo de "top center"**/
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+footer h1 {
+    font-size: 1.1em;
+}
+
+footer p, footer ul {
+    font-size: .8em;
+}
+
+#footer-tweet {
+    width: 28%;
+}
+
+#my_pictures {
+    width: 35%;
+}
+
+#my_pictures img {
+    border: 1px solid #000;
+}
+
+.container-my_friends {
+    width: 30%;
+}
+
+#my_friends {
+    display: flex;
+    justify-content: space-between;
+}
+
+#my_friends ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 48%;
+    list-style-image: url('../materiales/images/ico_liensexterne.png');
+    padding-left: 2px;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Zozor</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
         <header>
             <div id="logo">
                 <figure>
-                    <img src="../materiales/images/zozor_logo.png" alt="Logo_zozor" id="logo_zozor">
+                    <img src="./materiales/images/zozor_logo.png" alt="Logo_zozor" id="logo_zozor">
                 </figure>
                     <h1>Zozor</h1>
                     <h2>Travel diaries</h2>
@@ -34,18 +34,33 @@
             </nav>
         </header>
         
-        <div class="banner">
-            <div class="texto">
+        <div id="banner-image">
+            <div id="banner-description">
                 <p>Reflections on my holiday in the United States...</p>
-                <input type="button" value="See article">
+                <a href="#" class="red_buttom">See article <img src="" alt=""></a>
             </div>
         </div>
 
         <section>
             <article>
-                <img src="../materiales/images/ico_epingle.png" alt="icon-title">
-                <h2>I'M A GREAT TRAVELLER</h2>
+                <h1><img src="./materiales/images/ico_epingle.png" alt="icon-title" class="icon-categories">I'M A GREAT TRAVELLER</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, 
+                    remaining essentially unchanged. 
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, 
+                    remaining essentially unchanged. 
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                     It has survived not only five centuries, but also the leap into electronic typesetting, 
@@ -55,49 +70,52 @@
             </article>
             <aside>
                 <h2>ABOUT THE AUTHOR</h2>
-                <figure>
-                    <img src="../materiales/images/zozor_classe.png" alt="burro">
+                <figure id="aside-burro">
+                    <img src="./materiales/images/zozor_classe.png" alt="burro">
                 </figure>
+                <img src="./materiales/images/bulle.png" alt="triangulo" id="arrow">
                 <p>Let me introduce myself: My name´s
                     Zozor. I was born on 23 November
-                    2005.
-                </br>
+                    2005. 
+                </br></br>
                     A bit meager, is it not? This is why
                     I've now decide to write my
                     biography to let my readers know
                     who I really am.
                 </p>
-                <div>
-                    <img src="../materiales/images/facebook.png" alt="Facebook">
-                    <img src="../materiales/images/twitter.png" alt="Twitter">
-                    <img src="../materiales/images/vimeo.png" alt="Vime">
-                    <img src="../materiales/images/flickr.png" alt="flickr">
-                    <img src="../materiales/images/rss.png" alt="Blog">
+                <div id="tweet">
+                    <img src="./materiales/images/facebook.png" alt="Facebook">
+                    <img src="./materiales/images/twitter.png" alt="Twitter">
+                    <img src="./materiales/images/vimeo.png" alt="Vime">
+                    <img src="./materiales/images/flickr.png" alt="flickr">
+                    <img src="./materiales/images/rss.png" alt="Blog">
                 </div>
             </aside>
         </section>
 
         <footer>
-            <div>
+            <div id="footer-tweet">
                 <h3>MY LAST NAME</h3>
                 <P>Hee-haw!</P>
                 <P>12/05 23:12</P>
             </div>
-            <div>
-                <h3>MY LAST NAME</h3>
-                <img src="../materiales/images/photo1.jpg" alt="image">
-                <img src="../materiales/images/photo2.jpg" alt="image">
-                <img src="../materiales/images/photo3.jpg" alt="image">
-                <img src="../materiales/images/photo4.jpg" alt="image">
+            <div id="my_pictures">
+                <h3>MY PICTURES</h3>
+                <img src="./materiales/images/photo1.jpg" alt="image">
+                <img src="./materiales/images/photo2.jpg" alt="image">
+                <img src="./materiales/images/photo3.jpg" alt="image">
+                <img src="./materiales/images/photo4.jpg" alt="image">
             </div>
-            <div>
-                <h3>MY LAST NAME</h3>
+            <div class="container-my_friends">
+                <h3>MY FRIENDS</h3>
                 <div id="my_friends">
                     <ul>
                         <li>Pupi the rabbit</li>
                         <li>Mr baobab</li>
                         <li>Kaiwaii</li>
                         <li>Perceval.eu</li>
+                    </ul>
+                    <ul>
                         <li>Ji</li>
                         <li>Super cucumber</li>
                         <li>Prince</li>
